@@ -683,6 +683,10 @@ section {
   background: #fff;
 }
 
+.servicesheader h3 {
+  color: aliceblue;
+}
+
 .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
@@ -1065,9 +1069,23 @@ section {
   }
 }
 
+.ri-check-double-line {
+  color: #fcae0f;
+}
+
+.servicelist {
+  color: white;
+  list-style-type: none;
+}
+
+.servicelist li {
+  margin: 10px 0px;
+  font-size: large;
+}
 
 
-.testimonials::before {
+
+/* .testimonials::before {
   content: "";
   position: absolute;
   left: 0;
@@ -1075,7 +1093,7 @@ section {
   top: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.7);
-}
+} */
 
 .testimonials .section-header {
   margin-bottom: 40px;
@@ -1141,7 +1159,7 @@ section {
   position: relative;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet {
+.swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: rgba(255, 255, 255, 0.4);
@@ -1609,6 +1627,18 @@ section {
   border: 1px solid rgba(255, 255, 255, 0.3)
 }
 
+.serviceheader h1 {
+  text-align: center;
+
+}
+
+
+
+.serviceheader {
+  margin: 100px 0px;
+  text-align: left;
+
+}
 
 .bt {
   border-radius: 11px !important;
@@ -1655,7 +1685,7 @@ section {
 }
 
 .card {
-  width: 200px;
+  width: 220px;
   height: 200px;
   background-color: white;
   display: flex;
@@ -1836,7 +1866,7 @@ section {
 }
 
 @media (min-width: 991px) and (max-width: 1450px) {
- .client-des{
-  margin-right: 30px !important;
+  .client-des{
+   margin-right: 30px !important;
+  }
  }
-}
