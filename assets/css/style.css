@@ -1834,3 +1834,9 @@ section {
     width: 550px;
   }
 }
+
+@media (min-width: 991px) and (max-width: 1450px) {
+ .client-des{
+  margin-right: 30px !important;
+ }
+}
